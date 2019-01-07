@@ -1,0 +1,15 @@
+1) Export Environment
+
+conda env export > environment.yml
+
+2) Install Environment
+
+conda env create -f environment.yml
+
+3) Remove Enviroments
+
+conda remove --name nyinyi --all
+
+4) Update Eniviroments
+
+conda env update -f=environment.yml
