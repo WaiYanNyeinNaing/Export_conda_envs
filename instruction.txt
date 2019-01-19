@@ -13,3 +13,7 @@ conda remove --name nyinyi --all
 4) Update Eniviroments
 
 conda env update -f=environment.yml
+
+5) Export Enviroment to Linux
+
+conda env export > new_environment.yml --no-builds
