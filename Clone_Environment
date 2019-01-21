@@ -1,0 +1,9 @@
+1) Export Old Environment to Directory
+
+conda env export > environment.yml
+
+2) Install Environment
+
+conda env create -f /home/mluser1/environment.yml
+
+
