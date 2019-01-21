@@ -1,12 +1,15 @@
+First Create Environment First with Python Specific Version
+conda create -n env_name python=3.6
+
 1) Export Environment
 
 conda env export > environment.yml
 
 2) Install Environment
 
-conda env create -f environment.yml
+conda env create -f /home/mluser1/environment.yml
 
-3) Remove Enviroments
+3) Remove Environments
 
 conda remove --name nyinyi --all
 
@@ -14,6 +17,12 @@ conda remove --name nyinyi --all
 
 conda env update -f=environment.yml
 
-5) Export Enviroment to Linux
+5) Export Environment to Linux
 
 conda env export > new_environment.yml --no-builds
+
+6) Remove Conda Environment
+
+ source deactivate env_name
+ conda env remove -n env_name
+ 
