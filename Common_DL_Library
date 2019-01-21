@@ -1,0 +1,11 @@
+1) Keras
+conda install -c conda-forge keras
+
+2) Tensorflow (CPU) (1.12)
+conda install -c anaconda tensorflow
+
+3) Tensorflow (GPU) (1.12)
+conda install -c anaconda tensorflow-gpu 
+
+4) OpenCV
+conda install -c conda-forge opencv 
