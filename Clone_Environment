@@ -1,9 +1,11 @@
-1) Export Old Environment to Directory
+1) source deactivate current environment
+
+2) Export Old Environment to Directory
 
 conda env export > environment.yml
 
-2) Install Environment
+3) Install Environment
 
-conda env create -f /home/mluser1/environment.yml
+conda env create -f /home/mluser1/environment.yml -n env_name
 
 
