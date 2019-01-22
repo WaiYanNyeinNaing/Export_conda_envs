@@ -6,6 +6,8 @@ conda env export > environment.yml
 
 3) Install Environment
 
+Edit in Yml = name / prefix
+
 conda env create -f /home/mluser1/environment.yml -n env_name
 
 
