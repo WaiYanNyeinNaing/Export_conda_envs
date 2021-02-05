@@ -25,6 +25,7 @@ conda env export > new_environment.yml --no-builds
 
  source deactivate env_name
  conda env remove -n env_name
+
  
 7) #Moving Conda Env to Another Machine (Same OS)
 
@@ -33,3 +34,7 @@ conda env export > new_environment.yml --no-builds
 
 2)  To recreate the environment:
     conda create --name python-course --file spec-list.txt
+    
+ 8) Clone conda env on same machine
+ 
+    conda create --name myclone --clone myenv
