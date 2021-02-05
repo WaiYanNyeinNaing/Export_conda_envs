@@ -36,5 +36,4 @@ conda env export > new_environment.yml --no-builds
     conda create --name python-course --file spec-list.txt
     
  8) Clone conda env on same machine
- 
     conda create --name myclone --clone myenv
