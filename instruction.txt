@@ -37,3 +37,12 @@ conda env export > new_environment.yml --no-builds
     
  8) Clone conda env on same machine
     conda create --name myclone --clone myenv
+ 
+ 
+## Tensor Anaconda Install
+
+conda search tensorflow-gpu
+
+conda install tensorflow-gpu==2.0.0
+    
+    
